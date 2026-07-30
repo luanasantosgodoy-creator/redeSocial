@@ -25,7 +25,7 @@ background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc236
 }
 
 .phone-screen {
-background: #ffffff;
+background: #272626;
 border-radius: 32px;
 overflow: hidden;
 display: flex;
@@ -69,7 +69,7 @@ color: #1c1e21;
 position: relative;
 width: 100%;
 aspect-ratio: 4 / 5;
-background-color: #383535;
+background-color: #c7bebe;
 }
 
 .post-media img.main-img {
