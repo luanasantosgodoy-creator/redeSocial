@@ -8,4 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     //localiza o contador
 
     let textNode = Array.from(likeBtn.childNodes).find(node) => node.nodeType
-})
+    === Node.TEXT_NODE && node.textContent.trim() !== ""
+});
+
+//zera o contador
+let cont = 0;
+
+//atualiza
+if (textNode){
+    textNode. textContent = `0`;
+}
