@@ -16,5 +16,19 @@ let cont = 0;
 
 //atualiza
 if (textNode){
-    textNode. textContent = `0`;
+    textNode.textContent = `0`;
+}
+
+//coração
+function applyLikedStyle (){
+likeSvg.style.fill="#00BFFF";
+likeSvg.style.stroke = "#00BFFF";
+likeSvg.style.color = "#00BFFF";
+
+
+//efeito curtida
+likeSvg.style.transform = "scale(1.3)";
+setTimeout(() => {likeSvg.style.transform = "scale(1)" 150
+    
+}, timeout);
 }
