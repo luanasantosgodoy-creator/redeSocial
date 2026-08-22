@@ -110,7 +110,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 2px solid #e4dede;
+border: 2px solid #272525;
 }
 
 /* Ações (Curtir, Comentar, Repostar, Direct, Salvar) */
@@ -133,7 +133,7 @@ align-items: center;
 gap: 5px;
 font-size: 13px;
 font-weight: 600;
-color: #8c8e91;
+color: #19191a;
 cursor: pointer;
 background: none;
 border: none;
@@ -171,7 +171,7 @@ justify-content: space-around;
 align-items: center;
 padding: 12px 0 16px 0;
 border-top: 1px solid #797373;
-background: #3f3d3d;
+background: #c2bdbd;
 }
 
 .nav-item {
