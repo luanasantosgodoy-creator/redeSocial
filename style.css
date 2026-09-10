@@ -194,9 +194,9 @@ stroke-width: 2;
 
 /* Coração curtido */
 .action-btn.like-btn.liked svg {
-  fill: #e11d48;
-  stroke: #e11d48;
-  color: #e11d48;
+  fill: #1021bd;
+  stroke: #0d31cf;
+  color: #1d31e1;
 }
 
 /* Coração em hover/clique */
