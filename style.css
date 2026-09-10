@@ -194,14 +194,14 @@ stroke-width: 2;
 
 /* Coração curtido */
 .action-btn.like-btn.liked svg {
-  fill: #1021bd;
-  stroke: #0d31cf;
-  color: #1d31e1;
+  fill: #10bda6;
+  stroke: #0dcfb5;
+  color: #1de1d1;
 }
 
 /* Coração em hover/clique */
 .action-btn.like-btn.liked {
-  color: #e11d48;
+  color: #1de1b6;
 }
 
 /* Ícone de Salvar ativado */
