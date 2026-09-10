@@ -186,3 +186,26 @@ fill: none;
 stroke: currentColor;
 stroke-width: 2;
 }
+
+/* Estilos extras para as interações ativas */
+.action-btn svg {
+  transition: transform 0.15s ease, fill 0.2s ease, stroke 0.2s ease;
+}
+
+/* Coração curtido */
+.action-btn.like-btn.liked svg {
+  fill: #e11d48;
+  stroke: #e11d48;
+  color: #e11d48;
+}
+
+/* Coração em hover/clique */
+.action-btn.like-btn.liked {
+  color: #e11d48;
+}
+
+/* Ícone de Salvar ativado */
+.action-btn.bookmark-btn.bookmarked svg {
+  fill: #1c1e21;
+  stroke: #1c1e21;
+}
