@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!likeBtn) return;
 
   let isLiked = false;
-  let baseLikes = 0;
+  let baseLikes = 600;
 
   // Formata números grandes (ex: 1200 -> 1.2K)
   function formatLikes(num) {
