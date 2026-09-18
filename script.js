@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Remove Curtida
   function removeLike() {
     if (isLiked) {
-      baseLikes = Math.max(0, baseLikes - 1);
+      baseLikes = Math.max(600, baseLikes - 1);
       isLiked = false;
       likeBtn.classList.remove("liked");
       updateUI();
